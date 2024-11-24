@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Book Store</title>
+    <meta name="description" content="This Is Our Book Store" />
+</head>
+
+<body>
+    <!-- ؟؟ for in label لماذا نستخدم -->
+    <!-- id in inputمطابقة لقيمة ال for in lablelبضغطة الزر فيتم الاختيار ويجب ان تكون قيمة ال lablelحتى يتم ارتباط ال -->
+
+    <div>
+        <h1>Book Store</h1>
+        <p>This Is My Book Store, Welcome</p>
+    </div>
+    <form action="" method="GET">
+        <input value="Osama">
+        <input type="hidden" value="Osama">
+        <br><br>
+        <!-- we use value to store it in data and send it to link bar -->
+        <div>
+            <label>Username</label>
+            <input type="text" required placeholder="Username" name="user">
+            <!-- inputيتبعه ال labelال -->
+        </div>
+        <br>
+        <div>
+            <label>Subject</label>
+            <input type="text" name="subject">
+        </div>
+        <br>
+        <div>
+            <label>Password</label>
+            <input type="password" required placeholder="Write A Complex Password" name="pass">
+        </div>
+        <br>
+        <div>
+            <label>Email</label>
+            <input type="email" required placeholder="Write A Valid Email" value="o@nn.sa" name="mail">
+            <!-- we use name and value to the format in data like this: name=value -->
+        </div>
+        <br>
+        <div>
+            <label>Color</label>
+            <input type="color" name="Color">
+        </div>
+        <br>
+        <div>
+            <label>Range</label>
+            <input type="range" name="range" min="0" max="100" step="20" value="80">
+        </div>
+        <br>
+        <div>
+            <label>Number</label>
+            <input type="number" name="number" min="10" max="100" step="10">
+        </div>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Save">
+    </form>
+</body>
+
+</html>
+
+<!-- 
+    The HTML <form> element can contain one or more of the following form elements:
+
+<input>
+<label>
+<select>
+<textarea>
+<button>
+<fieldset>
+<legend>
+<datalist>
+<output>
+<option>
+<optgroup>
+ -->
